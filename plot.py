@@ -28,7 +28,7 @@ def plot(options):
     rtscts=1
   )
 
-  speed = options.speed
+  speed = int(options.speed)
   units = 40
 
   ser.setDTR(True)
